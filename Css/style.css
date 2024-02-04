@@ -11,12 +11,15 @@
     --secondColor: #60677F;
     ---thirdColor: #FF785A;
     --lineColor: #D1D3DC;
+    --textColor:#2C2F3A;
 }
 ::selection {
     background: var(---thirdColor); 
     color: #ffffff;  
 }
-
+body{
+    color: var(--textColor);
+}
 header {
     height: 80px;
     width: 100%;
@@ -139,7 +142,7 @@ nav {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: #000;
+    color: var(--textColor);
     transition: all 0.3s ease;
 }
 
