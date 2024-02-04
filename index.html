@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vrit Assignment - Suraj</title>
+    <link rel="icon" href="Images/favicon.ico">
+    <!-- style css -->
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/responsive.css">
+
+    <!-- boxicon -->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- google font -->
+</head>
+
+<body>
+
+    <!-- Header of website -->
+    <header>
+        <nav>
+            <img src="Images/Logo.png" alt="" class="logo">
+
+            <ul class="navigation">
+                <li class="active"><a href="#" class="active before">Discover</a></li>
+                <li><a href="#" class="before">Community</a></li>
+                <li class="dropdown-parent"> <a href="#" class="before">Services <i class='bx bxs-chevron-down'></i></a>
+                    <ul class="dropdown-child">
+                        <li class="eee before1"><img src="Images/All Icons.png" alt=""><a href="#">Apply Visa</a></li>
+                        <li class="eee before1"><img src="Images/All Icons.png" alt=""><a href="#">Free Cunsultant</a></li>
+                        <li class="eee before1"><img src="Images/All Icons.png" alt=""><a href="#">Paid Cunsultant</a></li>
+                        <li class="eee before1"><img src="Images/All Icons.png" alt=""><a href="#">IELTS/PTE</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-parent"><a href="#" class="before">More <i class='bx bxs-chevron-down'></i></a>
+                    <ul class="dropdown-child">
+                        <li class="eee before1"><img src="Images/All Icons.png" alt=""><a href="#">Contact</a></li>
+                        <li class="eee before1"><img src="Images/All Icons.png" alt=""><a href="#">Sucess Stories</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="search_bar">
+            <button class="button-signin">Sign in</button>
+            <button class="button-download"><span>+</span>
+                <p> Download App</p>
+            </button>
+        </div>
+
+    </header>
+
+
+    <!-- mobile nav -->
+    <header-1>
+        <nav>
+            <div class="mobile-top">
+                <img src="Images/Logo.png" alt="" class="logo">
+                <div>
+                    <input type="checkbox"  id="click1">
+                    <label for="click1" class="mobile-open">
+                        <svg class="svg-menu .open-icon" id="menu-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                        </svg>
+                        <svg class="svg-menu close-icon" id="close-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                    </label>
+                    <nav-1 class="mobile-nav-down">
+                        <ul class="navigation">
+                            <li class="active"><a href="#" class="active before">Discover</a></li>
+                            <li><a href="#" class="before">Community</a></li>
+                            <li class="dropdown-parent"> <a href="#" class="before">Services <i class='bx bxs-chevron-down'></i></a>
+                                <ul class="dropdown-child">
+                                    <li class="eee before1"><img src="Images/All Icons.png" alt=""><a href="#">Apply Visa</a></li>
+                        <li class="eee before1"><img src="Images/All Icons.png" alt=""><a href="#">Free Cunsultant</a></li>
+                        <li class="eee before1"><img src="Images/All Icons.png" alt=""><a href="#">Paid Cunsultant</a></li>
+                        <li class="eee before1"><img src="Images/All Icons.png" alt=""><a href="#">IELTS/PTE</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-parent"><a href="#" class="before">More <i class='bx bxs-chevron-down'></i></a>
+                    <ul class="dropdown-child">
+                        <li class="eee before1"><img src="Images/All Icons.png" alt=""><a href="#"></a>Contact</li>
+                        <li class="eee before1"><img src="Images/All Icons.png" alt=""><a href="#">Sucess Stories</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+            
+                    <div class="search_bar">
+                        <button class="button-signin ">Sign in</button>
+                        <button class="button-download"><span>+</span>
+                            <p> Download App</p>
+                        </button>
+                    </div>
+                </nav-1>
+            
+                </div>
+            </div>
+            </nav>
+            
+
+    </header-1>
+  
+    <!-- hero is here dumtananana dumtanana -->
+    <section class="hero">
+        <h1>Discover College & Universities For Your Abroad Education</h1>
+        <p>Everything you need for your abroad education is here. Discover global opportunities with us.</p>
+    </section>
+    <!-- main page -->
+    <main>
+        <section class="main-box">
+            <div class="row-box1">
+                <!-- search box -->
+                <div class="search-box">
+                    <div class="first-search">
+                        <img src="Images/magnify.png" alt="" class="search-icon">
+                        <input type="search" placeholder="Search universities, courses" class="Search-input">
+                    </div>
+                    <button class="search-button">Search</button>
+                </div>
+            </div>
+            <!-- select box -->
+            <div class="row-box2">
+                <div class="Country-box">
+                    <select id="CountrySelector" name="Country" class="selectorbox">
+                        <option value="" disabled selected>Countries</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="australia">Australia</option>
+                </div>
+                </select>
+            </div>
+            <div class="Course-box">
+                <select id="courseSelector" name="Course" class="selectorbox">
+                    <option value="" disabled selected>Select a course</option>
+                    <option value="course1">Master of Technology</option>
+                    <option value="course2">Master of Business Administration</option>
+                    <option value="course2">Graduate Diploma in Early </option>
+                    <option value="course2">Master in Information and Communication Technology</option>
+                    <option value="course2">Bachelor of Arts in Anthropology</option>
+                    <option value="course2">Master of Audio Engineering and Sound Production</option>
+                </select>
+            </div>
+            <div class="Degree-box">
+                <select id="degreeSelector" name="Degree" class="selectorbox">
+                    <option value="" disabled selected>Select a degree</option>
+                    <option value="degree1">Master</option>
+                    <option value="degree2">Bachelor</option>
+                </select>
+            </div>
+            <div class="Duration-box">
+                <select id="durationSelector" name="Duration" class="selectorbox">
+                    <option value="" disabled selected>Select a duration</option>
+                    <option value="duration1">1 Year</option>
+                    <option value="duration2">2 Years</option>
+                    <option value="duration2">3 Years</option>
+                </select>
+            </div>
+            <div class="Fees-box">
+                <select id="feesSelector" name="fees" class="selectorbox">
+                    <option value="" disabled selected>Select fees</option>
+                    <option value="fees1">CAD 38,614</option>
+                    <option value="fees2">AUD 20,000</option>
+                    <option value="fees2">AUD 39,500</option>
+                    <option value="fees2">USD 39,500</option>
+                    <option value="fees2">AUD 38,614</option>
+                    <option value="fees2">CAD 27,800</option>
+                    <option value="fees2">AUD 50,500</option>
+                </select>
+
+            </div>
+            <div class="Intake-box">
+                <select id="intakeSelector" name="intake" class="selectorbox">
+                    <option value="" disabled selected>Select intake</option>
+                    <option value="intake1">Jan/Feb</option>
+                    <option value="intake2">May/JUN</option>
+                    <option value="intake2">JUL/NOV</option>
+                </select>
+            </div>
+            </div>
+        </section>
+
+        <!-- mobile search -->
+        <section class="main-box-mobile">
+            <div class="row-box1">
+                <!-- search box -->
+                <div class="search-box">
+                    <div class="first-search">
+                        <img src="Images/magnify.png" alt="" class="search-icon">
+                        <input type="search" placeholder="Search universities, courses" class="Search-input">
+                    </div>
+                </div>
+                <div class="Apply-filter-main">
+                    <input type="checkbox" id="Apply-search">
+                    <label for="Apply-search" class="text-aligh">
+                        <img src="Images/mynaui_filter@2x.png" alt="" class="Apply-filter"> Apply Search
+                    </label>
+            <!-- select box -->
+            <div class="row-box2">
+                <div class="Country-box">
+                    <select id="CountrySelector" name="Country" class="selectorbox">
+                        <option value="" disabled selected>Countries</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="australia">Australia</option>
+                </div>
+                </select>
+            </div>
+            <div class="Course-box">
+                <select id="courseSelector" name="Course" class="selectorbox">
+                    <option value="" disabled selected>Select a course</option>
+                    <option value="course1">Master of Technology</option>
+                    <option value="course2">Master of Business Administration</option>
+                    <option value="course2">Graduate Diploma in Early </option>
+                    <option value="course2">Master in Information and Communication Technology</option>
+                    <option value="course2">Bachelor of Arts in Anthropology</option>
+                    <option value="course2">Master of Audio Engineering and Sound Production</option>
+                </select>
+            </div>
+            <div class="Degree-box">
+                <select id="degreeSelector" name="Degree" class="selectorbox">
+                    <option value="" disabled selected>Select a degree</option>
+                    <option value="degree1">Master</option>
+                    <option value="degree2">Bachelor</option>
+                </select>
+            </div>
+            <div class="Duration-box">
+                <select id="durationSelector" name="Duration" class="selectorbox">
+                    <option value="" disabled selected>Select a duration</option>
+                    <option value="duration1">1 Year</option>
+                    <option value="duration2">2 Years</option>
+                    <option value="duration2">3 Years</option>
+                </select>
+            </div>
+            <div class="Fees-box">
+                <select id="feesSelector" name="fees" class="selectorbox">
+                    <option value="" disabled selected>Select fees</option>
+                    <option value="fees1">CAD 38,614</option>
+                    <option value="fees2">AUD 20,000</option>
+                    <option value="fees2">AUD 39,500</option>
+                    <option value="fees2">USD 39,500</option>
+                    <option value="fees2">AUD 38,614</option>
+                    <option value="fees2">CAD 27,800</option>
+                    <option value="fees2">AUD 50,500</option>
+                </select>
+
+            </div>
+            <div class="Intake-box">
+                <select id="intakeSelector" name="intake" class="selectorbox">
+                    <option value="" disabled selected>Select intake</option>
+                    <option value="intake1">Jan/Feb</option>
+                    <option value="intake2">May/JUN</option>
+                    <option value="intake2">JUL/NOV</option>
+                </select>
+            </div>
+            <button class="search-button">Search</button>
+
+            </div>
+        </section>
+
+        <!-- down content result -->
+        <div class="result-show-box">
+            <p class="Sortby"> Showing result for</p>
+            <br class="mobile-none1">
+            <div class="result-show-flex">
+                <h3>All Colleges and Universities</h3>
+                <form action="" class="mobile-none">
+                    <label for="Selector" class="Sortby">Sort by:</label>
+                    <select name="Selector" id="Selector" class="Result-selector">
+                        <option value="">Fee(low-high)</option>
+                        <option value="">Fee(high-low)</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        <hr class="result-show-hr mobile-none">
+        <!-- down content result end-->
+<br>
+        <!-- grid column start here -->
+        <div class="main-main">
+            <div class="result-box main-result1 lol-mobile-none">
+                <!-- line up and logo -->
+                <div class="Logo-and-lineup">
+                    <div class="college-logo">
+                        <img src="Images/1.png" alt="College Logo" />
+                    </div>
+                    <div class="collage-name">
+                        <h3 class="collage-name1">Melbourne Institute of <br> Technology</h3>
+                        <p>Sydney, Australia</p>
+                    </div>
+                    <div class="love-path ">
+                        <div class="heart-2" onclick="toggleHeart()"></div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <!-- line up and logo end-->
+
+                <!-- content after line -->
+                <div class="main-content">
+                    <p class="collage-p"> Course Name</p>
+                    <h3 class="collage-font">
+                        Master of Technology (Enterprise Systems and Business Analytics)
+                    </h3>
+
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="collage-p">Fee per year</th>
+                            <th class="collage-p bold">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="collage-font">AUD 20,000</td>
+                            <td class="collage-font">2 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- content end -->
+
+            </div>
+            <div class="result-box main-result2 lol-mobile-none">
+                <!-- line up and logo -->
+                <div class="Logo-and-lineup">
+                    <div class="college-logo">
+                        <img src="Images/2.png" alt="College Logo" />
+                    </div>
+                    <div class="collage-name">
+                        <h3 class="collage-name1">Central Queensland <br> University</h3>
+                        <p>New South Wales, Australia</p>
+                    </div>
+                    <div class="love-path ">
+                        <div class="heart-2" onclick="toggleHeart()"></div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <!-- line up and logo end-->
+
+                <!-- content after line -->
+                <div class="main-content">
+                    <p class="collage-p"> Course Name</p>
+                    <h3 class="collage-font">
+                        Master of Business Administration (Coursework)
+                    </h3>
+<br>
+
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="collage-p">Fee per year</th>
+                            <th class="collage-p bold">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="collage-font">AUD 39,500</td>
+                            <td class="collage-font">2 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- content end -->
+
+            </div>
+            <div class="result-box main-result3 lol-mobile-none">
+                <!-- line up and logo -->
+                <div class="Logo-and-lineup">
+                    <div class="college-logo">
+                        <img src="Images/3.png" alt="College Logo" />
+                    </div>
+                    <div class="collage-name">
+                        <h3 class="collage-name1">Swinburne University of  <br> Technology</h3>
+                        <p>Vancouver, Canada</p>
+                    </div>
+                    <div class="love-path ">
+                        <div class="heart-2" onclick="toggleHeart()"></div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <!-- line up and logo end-->
+
+                <!-- content after line -->
+                <div class="main-content">
+                    <p class="collage-p"> Course Name</p>
+                    <h3 class="collage-font">
+                        Graduate Diploma in Early Childhood Education (Extension)
+                    </h3>
+
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="collage-p">Fee per year</th>
+                            <th class="collage-p bold">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="collage-font">CAD 38,614</td>
+                            <td class="collage-font">1 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- content end -->
+
+            </div>
+            <div class="result-box main-result4 lol-mobile-none">
+                <!-- line up and logo -->
+                <div class="Logo-and-lineup">
+                    <div class="college-logo">
+                        <img src="Images/2.png" alt="College Logo" />
+                    </div>
+                    <div class="collage-name">
+                        <h3 class="collage-name1">Central Queensland <br> University</h3>
+                        <p>New South Wales, Australia</p>
+                    </div>
+                    <div class="love-path ">
+                        <div class="heart-2" onclick="toggleHeart()"></div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <!-- line up and logo end-->
+
+                <!-- content after line -->
+                <div class="main-content">
+                    <p class="collage-p"> Course Name</p>
+                    <h3 class="collage-font">
+                        Master of Technology (Enterprise Systems and Business Analytics)
+                    </h3>
+
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="collage-p">Fee per year</th>
+                            <th class="collage-p bold">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="collage-font">AUD 39,500</td>
+                            <td class="collage-font">2 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- content end -->
+
+            </div>
+            <div class="result-box main-result5 lol-mobile-none">
+                <!-- line up and logo -->
+                <div class="Logo-and-lineup">
+                    <div class="college-logo">
+                        <img src="Images/5.png" alt="College Logo" />
+                    </div>
+                    <div class="collage-name">
+                        <h3 class="collage-name1">Griffith University</h3>
+                        <p>Nova Scotia, Canada</p>
+                    </div>
+                    <div class="love-path ">
+                        <div class="heart-2" onclick="toggleHeart()"></div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <!-- line up and logo end-->
+
+                <!-- content after line -->
+                <div class="main-content">
+                    <p class="collage-p"> Course Name</p>
+                    <h3 class="collage-font">
+                        Bachelor of Arts in Anthropology
+                    </h3>
+<br>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="collage-p">Fee per year</th>
+                            <th class="collage-p bold">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="collage-font">CAD 39,500</td>
+                            <td class="collage-font">4 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- content end -->
+
+            </div>
+            <div class="result-box main-result6 lol-mobile-none">
+                <!-- line up and logo -->
+                <div class="Logo-and-lineup">
+                    <div class="college-logo">
+                        <img src="Images/5.png" alt="College Logo" />
+                    </div>
+                    <div class="collage-name">
+                        <h3 class="collage-name1">Griffith University</h3>
+                        <p>Queensland, Australia</p>
+                    </div>
+                    <div class="love-path ">
+                        <div class="heart-2" onclick="toggleHeart()"></div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <!-- line up and logo end-->
+
+                <!-- content after line -->
+                <div class="main-content">
+                    <p class="collage-p"> Course Name</p>
+                    <h3 class="collage-font">
+                        Master of Audio Engineering and Sound Production (Coursework)
+                    </h3>
+
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="collage-p">Fee per year</th>
+                            <th class="collage-p bold">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="collage-font">AUD 39,500</td>
+                            <td class="collage-font">2 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- content end -->
+
+            </div> 
+            <div class="result-box main-result7 lol-mobile-none">
+                <!-- line up and logo -->
+                <div class="Logo-and-lineup">
+                    <div class="college-logo">
+                        <img src="Images/1.png" alt="College Logo" />
+                    </div>
+                    <div class="collage-name">
+                        <h3 class="collage-name1">Melbourne Institute of <br> Technology</h3>
+                        <p>Sydney, Australia</p>
+                    </div>
+                    <div class="love-path ">
+                        <div class="heart-2" onclick="toggleHeart()"></div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <!-- line up and logo end-->
+
+                <!-- content after line -->
+                <div class="main-content">
+                    <p class="collage-p"> Course Name</p>
+                    <h3 class="collage-font">
+                        Master of Technology (Enterprise Systems and Business Analytics)
+                    </h3>
+
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="collage-p">Fee per year</th>
+                            <th class="collage-p bold">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="collage-font">AUD 20,000</td>
+                            <td class="collage-font">2 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- content end -->
+
+            </div>
+            <div class="result-box main-result8 lol-mobile-none">
+                <!-- line up and logo -->
+                <div class="Logo-and-lineup">
+                    <div class="college-logo">
+                        <img src="Images/2.png" alt="College Logo" />
+                    </div>
+                    <div class="collage-name">
+                        <h3 class="collage-name1">Central Queensland <br> University</h3>
+                        <p>Washington, USA</p>
+                    </div>
+                    <div class="love-path ">
+                        <div class="heart-2" onclick="toggleHeart()"></div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <!-- line up and logo end-->
+
+                <!-- content after line -->
+                <div class="main-content">
+                    <p class="collage-p"> Course Name</p>
+                    <h3 class="collage-font">
+                        Master of Business Administration (Coursework)
+                    </h3>
+<br>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="collage-p">Fee per year</th>
+                            <th class="collage-p bold">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="collage-font">USD 39,500</td>
+                            <td class="collage-font">2 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- content end -->
+
+            </div>
+            <div class="result-box main-result9 lol-mobile-none">
+                <!-- line up and logo -->
+                <div class="Logo-and-lineup">
+                    <div class="college-logo">
+                        <img src="Images/3.png" alt="College Logo" />
+                    </div>
+                    <div class="collage-name">
+                        <h3 class="collage-name1">Swinburne University of  <br> Technology</h3>
+                        <p>Victoria, Australia</p>
+                    </div>
+                    <div class="love-path ">
+                        <div class="heart-2" onclick="toggleHeart()"></div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <!-- line up and logo end-->
+
+                <!-- content after line -->
+                <div class="main-content">
+                    <p class="collage-p"> Course Name</p>
+                    <h3 class="collage-font">
+                        Graduate Diploma in Early Childhood Education (Extension)
+                    </h3>
+
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="collage-p">Fee per year</th>
+                            <th class="collage-p bold">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="collage-font">AUD 38,614</td>
+                            <td class="collage-font">1 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- content end -->
+
+            </div>
+            <div class="result-box main-result10 lol-mobile-none">
+                <!-- line up and logo -->
+                <div class="Logo-and-lineup">
+                    <div class="college-logo">
+                        <img src="Images/7.png" alt="College Logo" />
+                    </div>
+                    <div class="collage-name">
+                        <h3 class="collage-name1">University of Southern <br> Queensland</h3>
+                        <p>Toronto, Canada</p>
+                    </div>
+                    <div class="love-path ">
+                        <div class="heart-2" onclick="toggleHeart()"></div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <!-- line up and logo end-->
+
+                <!-- content after line -->
+                <div class="main-content">
+                    <p class="collage-p"> Course Name</p>
+                    <h3 class="collage-font">
+                        Master in Information and Communication Technology
+                    </h3>
+<br>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="collage-p">Fee per year</th>
+                            <th class="collage-p bold">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="collage-font">CAD 27,800</td>
+                            <td class="collage-font">2 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- content end -->
+
+            </div>
+            <div class="result-box main-result11 lol-mobile-none">
+                <!-- line up and logo -->
+                <div class="Logo-and-lineup">
+                    <div class="college-logo">
+                        <img src="Images/8.png" alt="College Logo" />
+                    </div>
+                    <div class="collage-name">
+                        <h3 class="collage-name1">University of the Sunshine <br> Cost</h3>
+                        <p>Queensland, Australia</p>
+                    </div>
+                    <div class="love-path ">
+                        <div class="heart-2" onclick="toggleHeart()"></div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <!-- line up and logo end-->
+
+                <!-- content after line -->
+                <div class="main-content">
+                    <p class="collage-p"> Course Name</p>
+                    <h3 class="collage-font">
+                        Bachelor of Arts in Anthropology
+                    </h3>
+<br>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="collage-p">Fee per year</th>
+                            <th class="collage-p bold">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="collage-font">AUD 50,500</td>
+                            <td class="collage-font">3 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- content end -->
+
+            </div>
+
+
+
+
+            <div class="result-box main-result12 lol-mobile-none">
+                <!-- line up and logo -->
+                <div class="Logo-and-lineup">
+                    <div class="college-logo">
+                        <img src="Images/5.png" alt="College Logo" />
+                    </div>
+                    <div class="collage-name">
+                        <h3 class="collage-name1">Griffith University</h3>
+                        <p>Queensland, Australia</p>
+                    </div>
+                    <div class="love-path ">
+                        <div class="heart-2" onclick="toggleHeart()"></div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <!-- line up and logo end-->
+
+                <!-- content after line -->
+                <div class="main-content">
+                    <p class="collage-p"> Course Name</p>
+                    <h3 class="collage-font">
+                        Master of Audio Engineering and Sound Production (Coursework)
+                    </h3>
+
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="collage-p">Fee per year</th>
+                            <th class="collage-p bold">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="collage-font">AUD 39,500</td>
+                            <td class="collage-font">2 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- content end -->
+
+            </div>
+<!-- mobile -->
+
+
+
+            
+<div class="result-box main-result12 lol-none">
+    <!-- line up and logo -->
+    <div class="Logo-and-lineup">
+        <div class="college-logo">
+            <img src="Images/2.png" alt="College Logo" />
+        </div>
+        <div class="collage-name">
+            <h3 class="collage-name1">Central Queensland University</h3>
+            <p>Rockhampton, Australia</p>
+        </div>
+        <div class="love-path ">
+            <div class="heart-3" onclick="toggleHeart()"></div>
+
+        </div>
+
+    </div>
+    <hr>
+    <!-- line up and logo end-->
+
+    <!-- content after line -->
+    <div class="main-content">
+        <p class="collage-p"> Course Name</p>
+        <h3 class="collage-font">
+            Master of Technology (Enterprise Systems and Business Analytics)        </h3>
+
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th class="collage-p">Fee per year</th>
+                <th class="collage-p bold">Duration</th>
+                <th class="collage-p bold">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="collage-font">AUD 20,000</td>
+                <td class="collage-font">2 Years</td>
+                <td class="collage-font">Public</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- content end -->
+
+</div>
+<!-- ok -->
+
+
+            
+<div class="result-box main-result12 lol-none">
+    <!-- line up and logo -->
+    <div class="Logo-and-lineup">
+        <div class="college-logo">
+            <img src="Images/mobile-2.png" alt="College Logo" />
+        </div>
+        <div class="collage-name">
+            <h3 class="collage-name1">Melbourne Institute of Technology</h3>
+            <p>Sydney, Australia</p>
+        </div>
+        <div class="love-path ">
+            <div class="heart-2" onclick="toggleHeart()"></div>
+
+        </div>
+
+    </div>
+    <hr>
+    <!-- line up and logo end-->
+
+    <!-- content after line -->
+    <div class="main-content">
+        <p class="collage-p"> Course Name</p>
+        <h3 class="collage-font">
+            Master of Technology (Enterprise Systems and Business Analytics)        </h3>
+
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th class="collage-p">Fee per year</th>
+                <th class="collage-p bold">Duration</th>
+                <th class="collage-p bold">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="collage-font">AUD 20,000</td>
+                <td class="collage-font">2 Years</td>
+                <td class="collage-font">Public</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- content end -->
+
+</div>
+<!-- last -->
+
+
+            
+<div class="result-box main-result12 lol-none">
+    <!-- line up and logo -->
+    <div class="Logo-and-lineup">
+        <div class="college-logo">
+            <img src="Images/5.png" alt="College Logo" />
+        </div>
+        <div class="collage-name">
+            <h3 class="collage-name1">Charles Sturt University</h3>
+            <p>Bathurst, Australia</p>
+        </div>
+        <div class="love-path ">
+            <div class="heart-2" onclick="toggleHeart()"></div>
+
+        </div>
+
+    </div>
+    <hr>
+    <!-- line up and logo end-->
+
+    <!-- content after line -->
+    <div class="main-content">
+        <p class="collage-p"> Course Name</p>
+        <h3 class="collage-font">
+            Master of Technology (Enterprise Systems and Business Analytics)        </h3>
+
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th class="collage-p">Fee per year</th>
+                <th class="collage-p bold">Duration</th>
+                <th class="collage-p bold">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="collage-font">AUD 20,000</td>
+                <td class="collage-font">2 Years</td>
+                <td class="collage-font">Public</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- content end -->
+
+</div>
+
+        </div>
+
+        <!-- main content ends here yess!!!!!!! -->
+
+        <br><br>
+        <div class="page">
+            <p>Showing 1 to 12 of 100 results</p>
+            <div class="right-page-flex">
+                <ul class="right-page-flex-">
+                    <li><a href="#">Prev</a></li>
+                    <li class="box-with-circle"><a href="#" class="be-white-please">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">...</a></li>
+                    <li><a href="#">100</a></li>
+                    <li><a href="#" class="primary-color">Next</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+<br><br><br><br><br>
+<footer>
+    <div class="footer-content">
+    <!-- logo and contetn before hr -->
+    <div  class="footer-content-flex">
+
+            <div class="footer-logo">
+                <img src="Images/Logo1.png" alt="Logo">
+                <p class="footer-text-">Lorem ipsum dolor sit amet consectetur. <br>  Nibh leo amet sed orci ipsum lectus<br>  pretium diam. Placerat ipsum volutpat<br>  commodo sodales.</p>
+            </div>
+            <div class="footer-links">
+                <div class="links">
+                    <div class="quick-links">
+                        <h4 class="footer-tex">Quick Links</h4>
+                        <p class="footer-text">Discover</p>
+                        <p class="footer-text">Community</p>
+                        <p class="footer-text">Apply Visa</p>
+                        <p class="footer-text">Sucess Stories</p>
+                    </div>
+                    <div class="legal">
+                        <h4 class="footer-tex">Legal</h4>
+                        <h4 class="footer-text">Cookies Policy</h4>
+                        <p class="footer-text">Terms of Service</p>
+                        <p class="footer-text">Privacy Policy</p>
+                    
+                    </div>
+                </div>
+                <div class="get-app">
+                    <h4 class="footer-tex">Get App</h4>
+                    <div class="social-icons">
+                        <img src="Images/google-play.png" alt="" class="social-footer">
+                        <img src="Images/apple.png" alt="" class="social-footer">
+                    </div>
+                </div>
+            </div>
+                </div>
+                <!-- hr and copyright -->
+                
+            </div>
+            <hr>
+            <div class="copyright">
+                <div class="footer-content-">
+                    <p>Copyright © 2024 Cloud Education. All rights reserved.</p>
+                    <div class="social-media">
+                        <a href="" class="footer-icon"><svg class="bx1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#5b6150" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg></a>
+                        <a href="" class="footer-icon "><svg class="bx1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#5b6150" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
+                        <a href="" class="footer-icon "><svg class="bx1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#5b6150" d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg></a>
+                        <a href="" class="footer-icon "><svg class="bx1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#5b6150" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+                    </div>
+                </div>
+            </div> 
+</footer>
+
+    <script src="Js/script.js"></script>
+</body>
+
+</html>
